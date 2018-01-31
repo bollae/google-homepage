@@ -1,0 +1,41 @@
+body, a {
+	font-family: Arial, sans-serif;
+	color: #222;
+	font-size: small;
+	text-decoration: none;
+}
+header {
+	font-size: 13px;
+}
+.hdmenu {
+	display: flex;
+	float: right;
+	white-space: nowrap;
+	padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    position: relative;
+    align-items: center;
+	
+
+
+}
+a {
+    cursor: pointer;
+    user-select: none;
+    padding-right: 15px;
+
+}
+a:hover {
+	text-decoration: underline;
+}
+.login {
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	line-height: 28px;
+	width: 100px;
+
